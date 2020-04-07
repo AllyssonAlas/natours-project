@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // Defines the size of a rem unit
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
